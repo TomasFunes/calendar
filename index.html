@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calendar app</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Calendar App</h1> 
+    </header>
+   <div class="calendar">
+        <div class="month">
+            <div class="prev-month">
+                <img class="prev-arrow" src="images/left-arrow.webp" alt="prev month arrow" width="20px">
+            </div>
+            <h2 class="target-month"></h2>
+            <div class="next-month">
+                <img class="next-arrow" src="images/right-arrow.webp" alt="next month arrow" width="20px">
+            </div>
+        </div>
+        <div class="date">
+            <p class="current-date"></p>
+        </div>
+        <table class="date-table"></table>
+        <div class="events">
+            <p class="event-list">Select a date to see its events</p>
+        </div>
+   </div>
+   <script type="module" src="main.js"></script>
+</body>
+</html>
